@@ -1,0 +1,41 @@
+*{
+    background-color: #222222;
+    color: #fff;
+}
+body{
+    justify-self: center;
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+}
+input[type=text]{
+       width:4rem ;
+       height: 2rem;
+       text-align: center;
+       border: 2px solid rgb(87, 173, 190);
+}
+#expss{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+#equal{
+    width: 2rem;
+    color: aquamarine;
+    text-align: center;
+}
+#opr{
+    background-color: #f01111;
+    width: 3rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+#ans{
+    background-color: #fff;
+    height: 2rem;
+    width: 4rem;
+    border: 0.4rem solid green;
+    font-size: 2rem;
+    color: #222222;
+}
